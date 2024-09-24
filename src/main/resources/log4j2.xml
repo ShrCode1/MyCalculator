@@ -11,6 +11,8 @@
     <Loggers>
         <Root level="debug">
             <AppenderRef ref="FileAppender"/>
+            <AppenderRef ref="ConsoleAppender"/> <!-- Add this line if you want console output -->
         </Root>
     </Loggers>
 </Configuration>
+
