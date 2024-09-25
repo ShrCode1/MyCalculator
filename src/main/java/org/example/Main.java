@@ -1,4 +1,4 @@
-package calculator;
+package org.example;
 
 import java.util.Scanner;
 import org.apache.logging.log4j.LogManager;
