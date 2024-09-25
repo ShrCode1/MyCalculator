@@ -58,3 +58,124 @@
 2024-09-25 15:13:34.797 [main] INFO  calculator.Main - [LOGARITHM] - 10.0 - [RESULT] - 2.302585092994046
 2024-09-25 15:13:34.798 [main] INFO  calculator.Main - [LOGARITHM] - 100.0 - [RESULT] - 4.605170185988092
 2024-09-25 15:13:34.798 [main] INFO  calculator.Main - [LOGARITHM] - 1.0 - [RESULT] - 0.0
+2024-09-25 15:54:55.955 [main] INFO  calculator.Main - [FACTORIAL] - 0.0 - [RESULT] - 1.0
+2024-09-25 15:54:55.957 [main] INFO  calculator.Main - [FACTORIAL] - 1.0 - [RESULT] - 1.0
+2024-09-25 15:54:55.957 [main] INFO  calculator.Main - [FACTORIAL] - 2.0 - [RESULT] - 2.0
+2024-09-25 15:54:55.958 [main] INFO  calculator.Main - [FACTORIAL] - 3.0 - [RESULT] - 6.0
+2024-09-25 15:54:55.959 [main] INFO  calculator.Main - [SQUARE_ROOT] - 4.0 - [RESULT] - 2.0
+2024-09-25 15:54:55.959 [main] INFO  calculator.Main - [SQUARE_ROOT] - 9.0 - [RESULT] - 3.0
+2024-09-25 15:54:55.960 [main] INFO  calculator.Main - [SQUARE_ROOT] - 81.0 - [RESULT] - 9.0
+2024-09-25 15:54:55.960 [main] INFO  calculator.Main - [SQUARE_ROOT] - 2.0 - [RESULT] - 1.4142135623730951
+2024-09-25 15:54:55.961 [main] INFO  calculator.Main - [SQUARE_ROOT] - 4.0 - [RESULT] - 2.0
+2024-09-25 15:54:55.961 [main] INFO  calculator.Main - [SQUARE_ROOT] - 9.0 - [RESULT] - 3.0
+2024-09-25 15:54:55.961 [main] INFO  calculator.Main - [SQUARE_ROOT] - 15.0 - [RESULT] - 3.872983346207417
+2024-09-25 15:54:55.961 [main] INFO  calculator.Main - [SQUARE_ROOT] - 20.0 - [RESULT] - 4.47213595499958
+2024-09-25 15:54:55.964 [main] INFO  calculator.Main - [LOGARITHM] - 10.0 - [RESULT] - 2.302585092994046
+2024-09-25 15:54:55.964 [main] INFO  calculator.Main - [LOGARITHM] - 100.0 - [RESULT] - 4.605170185988092
+2024-09-25 15:54:55.964 [main] INFO  calculator.Main - [LOGARITHM] - 1.0 - [RESULT] - 0.0
+2024-09-25 15:54:55.965 [main] INFO  calculator.Main - [FACTORIAL] - 0.0 - [RESULT] - 1.0
+2024-09-25 15:54:55.965 [main] INFO  calculator.Main - [FACTORIAL] - 1.0 - [RESULT] - 1.0
+2024-09-25 15:54:55.965 [main] INFO  calculator.Main - [FACTORIAL] - 2.0 - [RESULT] - 2.0
+2024-09-25 15:54:55.965 [main] INFO  calculator.Main - [FACTORIAL] - 3.0 - [RESULT] - 6.0
+2024-09-25 15:54:55.969 [main] INFO  calculator.Main - [POWER] - 2.0 2.0 - [RESULT] - 4.0
+2024-09-25 15:54:55.970 [main] INFO  calculator.Main - [POWER] - 5.0 3.0 - [RESULT] - 125.0
+2024-09-25 15:54:55.970 [main] INFO  calculator.Main - [POWER] - 3.0 1.0 - [RESULT] - 3.0
+2024-09-25 15:54:55.971 [main] INFO  calculator.Main - [POWER] - 10.0 0.0 - [RESULT] - 1.0
+2024-09-25 15:54:55.972 [main] INFO  calculator.Main - [POWER] - 2.0 2.0 - [RESULT] - 4.0
+2024-09-25 15:54:55.972 [main] INFO  calculator.Main - [POWER] - 5.0 3.0 - [RESULT] - 125.0
+2024-09-25 15:54:55.972 [main] INFO  calculator.Main - [POWER] - 3.0 1.0 - [RESULT] - 3.0
+2024-09-25 15:54:55.972 [main] INFO  calculator.Main - [POWER] - 10.0 0.0 - [RESULT] - 1.0
+2024-09-25 15:54:55.973 [main] INFO  calculator.Main - [LOGARITHM] - 10.0 - [RESULT] - 2.302585092994046
+2024-09-25 15:54:55.973 [main] INFO  calculator.Main - [LOGARITHM] - 100.0 - [RESULT] - 4.605170185988092
+2024-09-25 15:54:55.973 [main] INFO  calculator.Main - [LOGARITHM] - 1.0 - [RESULT] - 0.0
+2024-09-25 15:58:00.520 [main] INFO  calculator.Main - [FACTORIAL] - 0.0 - [RESULT] - 1.0
+2024-09-25 15:58:00.526 [main] INFO  calculator.Main - [FACTORIAL] - 1.0 - [RESULT] - 1.0
+2024-09-25 15:58:00.526 [main] INFO  calculator.Main - [FACTORIAL] - 2.0 - [RESULT] - 2.0
+2024-09-25 15:58:00.527 [main] INFO  calculator.Main - [FACTORIAL] - 3.0 - [RESULT] - 6.0
+2024-09-25 15:58:00.529 [main] INFO  calculator.Main - [SQUARE_ROOT] - 4.0 - [RESULT] - 2.0
+2024-09-25 15:58:00.529 [main] INFO  calculator.Main - [SQUARE_ROOT] - 9.0 - [RESULT] - 3.0
+2024-09-25 15:58:00.529 [main] INFO  calculator.Main - [SQUARE_ROOT] - 81.0 - [RESULT] - 9.0
+2024-09-25 15:58:00.529 [main] INFO  calculator.Main - [SQUARE_ROOT] - 2.0 - [RESULT] - 1.4142135623730951
+2024-09-25 15:58:00.530 [main] INFO  calculator.Main - [SQUARE_ROOT] - 4.0 - [RESULT] - 2.0
+2024-09-25 15:58:00.530 [main] INFO  calculator.Main - [SQUARE_ROOT] - 9.0 - [RESULT] - 3.0
+2024-09-25 15:58:00.531 [main] INFO  calculator.Main - [SQUARE_ROOT] - 15.0 - [RESULT] - 3.872983346207417
+2024-09-25 15:58:00.531 [main] INFO  calculator.Main - [SQUARE_ROOT] - 20.0 - [RESULT] - 4.47213595499958
+2024-09-25 15:58:00.533 [main] INFO  calculator.Main - [LOGARITHM] - 10.0 - [RESULT] - 2.302585092994046
+2024-09-25 15:58:00.533 [main] INFO  calculator.Main - [LOGARITHM] - 100.0 - [RESULT] - 4.605170185988092
+2024-09-25 15:58:00.533 [main] INFO  calculator.Main - [LOGARITHM] - 1.0 - [RESULT] - 0.0
+2024-09-25 15:58:00.533 [main] INFO  calculator.Main - [FACTORIAL] - 0.0 - [RESULT] - 1.0
+2024-09-25 15:58:00.534 [main] INFO  calculator.Main - [FACTORIAL] - 1.0 - [RESULT] - 1.0
+2024-09-25 15:58:00.534 [main] INFO  calculator.Main - [FACTORIAL] - 2.0 - [RESULT] - 2.0
+2024-09-25 15:58:00.534 [main] INFO  calculator.Main - [FACTORIAL] - 3.0 - [RESULT] - 6.0
+2024-09-25 15:58:00.538 [main] INFO  calculator.Main - [POWER] - 2.0 2.0 - [RESULT] - 4.0
+2024-09-25 15:58:00.538 [main] INFO  calculator.Main - [POWER] - 5.0 3.0 - [RESULT] - 125.0
+2024-09-25 15:58:00.538 [main] INFO  calculator.Main - [POWER] - 3.0 1.0 - [RESULT] - 3.0
+2024-09-25 15:58:00.538 [main] INFO  calculator.Main - [POWER] - 10.0 0.0 - [RESULT] - 1.0
+2024-09-25 15:58:00.540 [main] INFO  calculator.Main - [POWER] - 2.0 2.0 - [RESULT] - 4.0
+2024-09-25 15:58:00.540 [main] INFO  calculator.Main - [POWER] - 5.0 3.0 - [RESULT] - 125.0
+2024-09-25 15:58:00.540 [main] INFO  calculator.Main - [POWER] - 3.0 1.0 - [RESULT] - 3.0
+2024-09-25 15:58:00.540 [main] INFO  calculator.Main - [POWER] - 10.0 0.0 - [RESULT] - 1.0
+2024-09-25 15:58:00.542 [main] INFO  calculator.Main - [LOGARITHM] - 10.0 - [RESULT] - 2.302585092994046
+2024-09-25 15:58:00.542 [main] INFO  calculator.Main - [LOGARITHM] - 100.0 - [RESULT] - 4.605170185988092
+2024-09-25 15:58:00.542 [main] INFO  calculator.Main - [LOGARITHM] - 1.0 - [RESULT] - 0.0
+2024-09-25 15:59:38.354 [main] INFO  calculator.Main - [FACTORIAL] - 0.0 - [RESULT] - 1.0
+2024-09-25 15:59:38.356 [main] INFO  calculator.Main - [FACTORIAL] - 1.0 - [RESULT] - 1.0
+2024-09-25 15:59:38.356 [main] INFO  calculator.Main - [FACTORIAL] - 2.0 - [RESULT] - 2.0
+2024-09-25 15:59:38.356 [main] INFO  calculator.Main - [FACTORIAL] - 3.0 - [RESULT] - 6.0
+2024-09-25 15:59:38.357 [main] INFO  calculator.Main - [SQUARE_ROOT] - 4.0 - [RESULT] - 2.0
+2024-09-25 15:59:38.357 [main] INFO  calculator.Main - [SQUARE_ROOT] - 9.0 - [RESULT] - 3.0
+2024-09-25 15:59:38.358 [main] INFO  calculator.Main - [SQUARE_ROOT] - 81.0 - [RESULT] - 9.0
+2024-09-25 15:59:38.358 [main] INFO  calculator.Main - [SQUARE_ROOT] - 2.0 - [RESULT] - 1.4142135623730951
+2024-09-25 15:59:38.358 [main] INFO  calculator.Main - [SQUARE_ROOT] - 4.0 - [RESULT] - 2.0
+2024-09-25 15:59:38.358 [main] INFO  calculator.Main - [SQUARE_ROOT] - 9.0 - [RESULT] - 3.0
+2024-09-25 15:59:38.358 [main] INFO  calculator.Main - [SQUARE_ROOT] - 15.0 - [RESULT] - 3.872983346207417
+2024-09-25 15:59:38.359 [main] INFO  calculator.Main - [SQUARE_ROOT] - 20.0 - [RESULT] - 4.47213595499958
+2024-09-25 15:59:38.359 [main] INFO  calculator.Main - [LOGARITHM] - 10.0 - [RESULT] - 2.302585092994046
+2024-09-25 15:59:38.360 [main] INFO  calculator.Main - [LOGARITHM] - 100.0 - [RESULT] - 4.605170185988092
+2024-09-25 15:59:38.360 [main] INFO  calculator.Main - [LOGARITHM] - 1.0 - [RESULT] - 0.0
+2024-09-25 15:59:38.360 [main] INFO  calculator.Main - [FACTORIAL] - 0.0 - [RESULT] - 1.0
+2024-09-25 15:59:38.361 [main] INFO  calculator.Main - [FACTORIAL] - 1.0 - [RESULT] - 1.0
+2024-09-25 15:59:38.361 [main] INFO  calculator.Main - [FACTORIAL] - 2.0 - [RESULT] - 2.0
+2024-09-25 15:59:38.361 [main] INFO  calculator.Main - [FACTORIAL] - 3.0 - [RESULT] - 6.0
+2024-09-25 15:59:38.365 [main] INFO  calculator.Main - [POWER] - 2.0 2.0 - [RESULT] - 4.0
+2024-09-25 15:59:38.365 [main] INFO  calculator.Main - [POWER] - 5.0 3.0 - [RESULT] - 125.0
+2024-09-25 15:59:38.365 [main] INFO  calculator.Main - [POWER] - 3.0 1.0 - [RESULT] - 3.0
+2024-09-25 15:59:38.365 [main] INFO  calculator.Main - [POWER] - 10.0 0.0 - [RESULT] - 1.0
+2024-09-25 15:59:38.366 [main] INFO  calculator.Main - [POWER] - 2.0 2.0 - [RESULT] - 4.0
+2024-09-25 15:59:38.366 [main] INFO  calculator.Main - [POWER] - 5.0 3.0 - [RESULT] - 125.0
+2024-09-25 15:59:38.367 [main] INFO  calculator.Main - [POWER] - 3.0 1.0 - [RESULT] - 3.0
+2024-09-25 15:59:38.367 [main] INFO  calculator.Main - [POWER] - 10.0 0.0 - [RESULT] - 1.0
+2024-09-25 15:59:38.367 [main] INFO  calculator.Main - [LOGARITHM] - 10.0 - [RESULT] - 2.302585092994046
+2024-09-25 15:59:38.370 [main] INFO  calculator.Main - [LOGARITHM] - 100.0 - [RESULT] - 4.605170185988092
+2024-09-25 15:59:38.370 [main] INFO  calculator.Main - [LOGARITHM] - 1.0 - [RESULT] - 0.0
+2024-09-25 16:05:09.126 [main] INFO  org.example.Main - [FACTORIAL] - 0.0 - [RESULT] - 1.0
+2024-09-25 16:05:09.128 [main] INFO  org.example.Main - [FACTORIAL] - 1.0 - [RESULT] - 1.0
+2024-09-25 16:05:09.128 [main] INFO  org.example.Main - [FACTORIAL] - 2.0 - [RESULT] - 2.0
+2024-09-25 16:05:09.128 [main] INFO  org.example.Main - [FACTORIAL] - 3.0 - [RESULT] - 6.0
+2024-09-25 16:05:09.130 [main] INFO  org.example.Main - [SQUARE_ROOT] - 4.0 - [RESULT] - 2.0
+2024-09-25 16:05:09.130 [main] INFO  org.example.Main - [SQUARE_ROOT] - 9.0 - [RESULT] - 3.0
+2024-09-25 16:05:09.130 [main] INFO  org.example.Main - [SQUARE_ROOT] - 81.0 - [RESULT] - 9.0
+2024-09-25 16:05:09.130 [main] INFO  org.example.Main - [SQUARE_ROOT] - 2.0 - [RESULT] - 1.4142135623730951
+2024-09-25 16:05:09.132 [main] INFO  org.example.Main - [SQUARE_ROOT] - 4.0 - [RESULT] - 2.0
+2024-09-25 16:05:09.133 [main] INFO  org.example.Main - [SQUARE_ROOT] - 9.0 - [RESULT] - 3.0
+2024-09-25 16:05:09.133 [main] INFO  org.example.Main - [SQUARE_ROOT] - 15.0 - [RESULT] - 3.872983346207417
+2024-09-25 16:05:09.133 [main] INFO  org.example.Main - [SQUARE_ROOT] - 20.0 - [RESULT] - 4.47213595499958
+2024-09-25 16:05:09.133 [main] INFO  org.example.Main - [LOGARITHM] - 10.0 - [RESULT] - 2.302585092994046
+2024-09-25 16:05:09.133 [main] INFO  org.example.Main - [LOGARITHM] - 100.0 - [RESULT] - 4.605170185988092
+2024-09-25 16:05:09.133 [main] INFO  org.example.Main - [LOGARITHM] - 1.0 - [RESULT] - 0.0
+2024-09-25 16:05:09.134 [main] INFO  org.example.Main - [FACTORIAL] - 0.0 - [RESULT] - 1.0
+2024-09-25 16:05:09.134 [main] INFO  org.example.Main - [FACTORIAL] - 1.0 - [RESULT] - 1.0
+2024-09-25 16:05:09.134 [main] INFO  org.example.Main - [FACTORIAL] - 2.0 - [RESULT] - 2.0
+2024-09-25 16:05:09.134 [main] INFO  org.example.Main - [FACTORIAL] - 3.0 - [RESULT] - 6.0
+2024-09-25 16:05:09.138 [main] INFO  org.example.Main - [POWER] - 2.0 2.0 - [RESULT] - 4.0
+2024-09-25 16:05:09.138 [main] INFO  org.example.Main - [POWER] - 5.0 3.0 - [RESULT] - 125.0
+2024-09-25 16:05:09.138 [main] INFO  org.example.Main - [POWER] - 3.0 1.0 - [RESULT] - 3.0
+2024-09-25 16:05:09.138 [main] INFO  org.example.Main - [POWER] - 10.0 0.0 - [RESULT] - 1.0
+2024-09-25 16:05:09.139 [main] INFO  org.example.Main - [POWER] - 2.0 2.0 - [RESULT] - 4.0
+2024-09-25 16:05:09.139 [main] INFO  org.example.Main - [POWER] - 5.0 3.0 - [RESULT] - 125.0
+2024-09-25 16:05:09.140 [main] INFO  org.example.Main - [POWER] - 3.0 1.0 - [RESULT] - 3.0
+2024-09-25 16:05:09.140 [main] INFO  org.example.Main - [POWER] - 10.0 0.0 - [RESULT] - 1.0
+2024-09-25 16:05:09.141 [main] INFO  org.example.Main - [LOGARITHM] - 10.0 - [RESULT] - 2.302585092994046
+2024-09-25 16:05:09.142 [main] INFO  org.example.Main - [LOGARITHM] - 100.0 - [RESULT] - 4.605170185988092
+2024-09-25 16:05:09.142 [main] INFO  org.example.Main - [LOGARITHM] - 1.0 - [RESULT] - 0.0
+2024-09-25 16:06:40.339 [main] INFO  org.example.Main - [SQUARE_ROOT] - 10.0 - [RESULT] - 3.1622776601683795

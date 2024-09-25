@@ -1,4 +1,4 @@
-package calculator;
+package org.example;
 
 import java.util.Scanner;
 import org.apache.logging.log4j.LogManager;
@@ -24,6 +24,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
+        logger = LogManager.getLogger(Main.class);
         Main cal = new Main();
 
         Scanner sc = new Scanner(System.in);
