@@ -12,5 +12,5 @@
       service:
         name: docker
         state: started
-    # - name: Running container
-    #   shell: docker run -it -d --name MyCalculator shrey302/calculator
+    - name: Running container
+      shell: docker run -it -d --name MyCalculator shrey302/calculator
