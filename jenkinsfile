@@ -10,13 +10,11 @@ pipeline{
                 url:'https://github.com/ShrCode1/MyCalculator'
             }
         }
-
         stage('Step 2: Maven Build'){
             steps{
             sh 'mvn clean install'
             }
         }
-
         stage('Stage 3: Build Docker Image'){
             steps{
                 script{
@@ -24,7 +22,6 @@ pipeline{
                 }
             }
         }
-
         stage('Stage 4: Push docker image to hub') {
             steps{
                 script{
@@ -34,18 +31,14 @@ pipeline{
                 }
             }
         }
-
-        stage('Stage 5: Clean docker images') {
-            steps {
-                script {
+        stage('Stage 5: Clean docker images'){
+            steps{
+                script{
                     sh 'docker container prune -f'
-                    sh 'docker images'
-                    sh 'docker rmi $(docker images -f "dangling=true" -q) || true'
-                    sh 'docker images'
+                    sh 'docker image prune -f'
                 }
             }
         }
-
         stage('Step 6: Ansible Deployment') {
             steps{
                     ansiblePlaybook becomeUser: null,
