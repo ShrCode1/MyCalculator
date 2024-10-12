@@ -31,6 +31,7 @@
         name: MyCalculator
         image: shrey302/calculator:latest
         state: started
+        shell: docker run -it -d --name MyCalculator shrey302/calculator
         restart_policy: always
 
 
