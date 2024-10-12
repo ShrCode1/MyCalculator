@@ -4,13 +4,20 @@
   vars:
     ansible_python_interpreter: /usr/bin/python3
   tasks:
-    - name: Pull image
-      docker_image:
-        name: shrey302/calculator:latest
-        source: pull
-    - name: Start docker service
+    - name: Ensure Docker is running
       service:
         name: docker
         state: started
-    - name: Running container
-      shell: docker run -it -d --name MyCalculator shrey302/calculator
+
+    - name: Pull Docker image
+      docker_image:
+        name: shrey302/calculator:latest
+        source: pull
+
+    - name: Run Docker container
+      docker_container:
+        name: MyCalculator
+        image: shrey302/calculator:latest
+        state: started
+        restart_policy: always
+
