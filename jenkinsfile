@@ -33,10 +33,9 @@ pipeline{
         }
         stage('Stage 5: Clean docker images'){
             steps{
-                sh 'docker stop MyCalculator'
-                sh 'docker rm $(docker ps -a -q)'
-                sh 'docker image rm shrey302/calculator'
-                sh 'docker rmi $(docker images --filter "dangling=true" -q --no-trunc)'
+                script{
+                    sh 'docker container prune -f'
+                    sh 'docker image prune -f'
                 }
             }
         }
