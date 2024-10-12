@@ -5,14 +5,14 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class Main {
-
+	
     private static Logger logger;
 
-    public Main() {
+	public Main() {
         logger = LogManager.getLogger(Main.class);
-    }
-
-    public static void menu() {
+	}
+	
+	public static void menu() {
         System.out.println("Scientific Calculator");
         System.out.println("--------------------------");
         System.out.println("1. Square root");
@@ -20,24 +20,23 @@ public class Main {
         System.out.println("3. Natural logarithm (base е)");
         System.out.println("4. Power");
         System.out.println("0. Exit");
-        System.out.print("Enter your choice: ");
-    }
+        System.out.print("Enter your choice: ");		
+	}
 
-    public static void main(String[] args) {
-        logger = LogManager.getLogger(Main.class);
-        Main cal = new Main();
-
-        Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) {
+		Main cal = new Main();
+		
+        Scanner sc = new Scanner(System.in);                
         sc.nextLine();
 
         int choice;
 
         do {
-            Main.menu();
+        	Main.menu();
 
-            choice = sc.nextInt();
-
-            double num1, num2, ans;
+        	choice = sc.nextInt();
+        	
+        	double num1, num2, ans;
 
             switch(choice) {
                 case 1:
@@ -48,7 +47,7 @@ public class Main {
                         System.out.println("Invalid input");
                     }
                     else {
-                        System.out.println("Square root of " + num1 + " is " + ans);
+                    	System.out.println("Square root of " + num1 + " is " + ans);
                     }
                     break;
 
@@ -60,7 +59,7 @@ public class Main {
                         System.out.println("Invalid input");
                     }
                     else {
-                        System.out.println("Factorial of " + num1 + " is " + ans);
+                    	System.out.println("Factorial of " + num1 + " is " + ans);
                     }
                     break;
 
@@ -82,7 +81,7 @@ public class Main {
 
                     System.out.print("Enter second number: ");
                     num2 = sc.nextDouble();
-
+                                        
                     ans = cal.myPow(num1, num2);
                     System.out.println("Power of " + num1 + " to " + num2 + " is " + ans);
                     break;
@@ -96,13 +95,13 @@ public class Main {
             }
 
             System.out.println();
-        }
+        } 
         while (choice != 0);
 
         sc.close();
-    }
+	}
 
-    public double mySqrt(double num) {
+	public double mySqrt(double num) {
         if(num < 0) {
             logger.error("[SQUARE_ROOT] - " + num + " - [RESULT] - " + "null");
             return -1;
@@ -112,14 +111,14 @@ public class Main {
 
         logger.info("[SQUARE_ROOT] - " + num + " - [RESULT] - " + ans);
         return ans;
-    }
+	}
 
-    public double myFactorial(double num) {
+	public double myFactorial(double num) {
         if(num < 0) {
             logger.error("[FACTORIAL] - " + num + " - [RESULT] - " + "null");
             return -1;
         }
-
+        
         double ans = 1;
         for(int i = 1; i <= num; i++) {
             ans *= i;
@@ -127,9 +126,9 @@ public class Main {
 
         logger.info("[FACTORIAL] - " + num + " - [RESULT] - " + ans);
         return ans;
-    }
+	}
 
-    public double myLog(double num) {
+	public double myLog(double num) {
         if(num <= 0) {
             logger.error("[LOGARITHM] - " + num + " - [RESULT] - " + "null");
             return -1;
@@ -139,12 +138,13 @@ public class Main {
 
         logger.info("[LOGARITHM] - " + num + " - [RESULT] - " + ans);
         return ans;
-    }
+	}
 
-    public double myPow(double num1, double num2) {
+	public double myPow(double num1, double num2) {
         double ans = Math.pow(num1, num2);
 
         logger.info("[POWER] - " + num1 + " " + num2 + " - [RESULT] - " + ans);
         return ans;
-    }
+	}
 }
+
