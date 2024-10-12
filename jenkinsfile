@@ -35,11 +35,13 @@ pipeline{
             }
         }
 
-        stage('Stage 5: Clean docker images'){
-            steps{
-                script{
+        stage('Stage 5: Clean docker images') {
+            steps {
+                script {
                     sh 'docker container prune -f'
-                    sh 'docker image prune -f'
+                    sh 'docker images'
+                    sh 'docker rmi $(docker images -f "dangling=true" -q) || true'
+                    sh 'docker images'
                 }
             }
         }
