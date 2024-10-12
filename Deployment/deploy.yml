@@ -38,4 +38,10 @@
         image: shrey302/calculator:latest
         state: started
         shell: docker run -it -d --name MyCalculator shrey302/calculator
+<<<<<<< HEAD
         restart_policy: always
+=======
+        restart_policy: always
+
+
+>>>>>>> origin/master
