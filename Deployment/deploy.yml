@@ -13,6 +13,12 @@
       docker_container:
         name: MyCalculator
         state: absent
+    - name: Remove dangling images
+      docker_image:
+        name: "{{ item }}"
+        state: absent
+      loop: "{{ lookup('pipe', 'docker images -f dangling=true -q') }}"
+      when: lookup('pipe', 'docker images -f dangling=true -q') | length > 0
 
     - name: Remove existing image if it exists
       docker_image:
@@ -31,6 +37,5 @@
         name: MyCalculator
         image: shrey302/calculator:latest
         state: started
+        shell: docker run -it -d --name MyCalculator shrey302/calculator
         restart_policy: always
-
-
