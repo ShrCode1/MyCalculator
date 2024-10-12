@@ -9,6 +9,18 @@
         name: docker
         state: started
 
+    - name: Remove existing MyCalculator container (if it exists)
+      docker_container:
+        name: MyCalculator
+        state: absent
+
+    - name: Remove existing image if it exists
+      docker_image:
+        name: shrey302/calculator
+        tag: latest
+        state: absent
+      ignore_errors: true  # In case the image does not exist
+
     - name: Pull Docker image
       docker_image:
         name: shrey302/calculator:latest
@@ -20,4 +32,5 @@
         image: shrey302/calculator:latest
         state: started
         restart_policy: always
+
 
