@@ -4,10 +4,6 @@
   vars:
     ansible_python_interpreter: /usr/bin/python3
   tasks:
-    - name: Pull image
-      docker_image:
-        name: shrey302/calculator:latest
-        source: pull
     - name: Start docker service
       service:
         name: docker
