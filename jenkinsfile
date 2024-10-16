@@ -38,8 +38,9 @@ pipeline{
         stage('Stage 5: Clean docker images'){
             steps{
                 script{
+                    sh 'docker image prune -f --filter "dangling=true"'
                     sh 'docker container prune -f'
-                    sh 'docker image prune -f'
+//                     sh 'docker image prune -f'
                 }
             }
         }
