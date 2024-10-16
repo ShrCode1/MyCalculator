@@ -35,7 +35,7 @@ pipeline{
             }
         }
 
-        stage('Stage 5: Clean docker images'){
+        stage('Stage 5: Clean docker images') {
             steps{
                 script{
                     sh 'docker container prune -f'
