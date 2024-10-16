@@ -35,14 +35,35 @@ pipeline{
             }
         }
 
-        stage('Stage 5: Clean docker images'){
-            steps{
-                script{
-                    sh 'docker container prune -f'
-                    sh 'docker image prune -f'
+//         stage('Stage 5: Clean docker images'){
+//             steps{
+//                 script{
+//                     sh 'docker container prune -f'
+//                     sh 'docker image prune -f'
+//                 }
+//             }
+//         }
+            stage('Stage 5: Clean Docker Images and Containers') {
+                steps {
+                    script {
+                        // Remove dangling images (images with <none> as the tag)
+                        sh 'docker image prune -f --filter "dangling=true"'
+
+                        // Remove unused containers
+                        sh 'docker container prune -f'
+
+                        // Remove duplicate containers by stopping and removing them
+                        // This assumes "duplicate" means containers with the same name
+                        sh '''
+                            for container in $(docker ps -aq --format "{{.Names}}" | sort | uniq -d); do
+                                echo "Removing duplicate container: $container"
+                                docker stop $container || true
+                                docker rm $container || true
+                            done
+                        '''
+                    }
                 }
             }
-        }
 
         stage('Step 6: Ansible Deployment') {
             steps{
