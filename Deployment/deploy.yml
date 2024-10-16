@@ -15,6 +15,6 @@
     - name: Check if MyCalculator container already exists
       docker_container:
         name: MyCalculator
-        source: absent
+        state: absent
     - name: Running container
       shell: docker run -it -d --name MyCalculator shrey302/calculator
