@@ -17,7 +17,7 @@ pipeline{
             }
         }
 
-        stage('Stage 3: Build Docker Image'){
+        stage('Stage 3: Build Docker Image') {
             steps{
                 script{
                     docker_image = docker.build "shrey302/calculator:latest"
